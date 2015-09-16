@@ -13,6 +13,8 @@
 		A718D08D1B30CE7200E979B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A718D08C1B30CE7200E979B2 /* Images.xcassets */; };
 		A718D0901B30CE7200E979B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A718D08E1B30CE7200E979B2 /* LaunchScreen.xib */; };
 		A718D09C1B30CE7300E979B2 /* Favorite_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718D09B1B30CE7300E979B2 /* Favorite_PlacesTests.swift */; };
+		A718D0A61B30D23000E979B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A718D0A51B30D23000E979B2 /* CoreLocation.framework */; };
+		A718D0A81B30E22600E979B2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718D0A71B30E22600E979B2 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A718D0951B30CE7300E979B2 /* Favorite PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite PlacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A718D09A1B30CE7300E979B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A718D09B1B30CE7300E979B2 /* Favorite_PlacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_PlacesTests.swift; sourceTree = "<group>"; };
+		A718D0A51B30D23000E979B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A718D0A71B30E22600E979B2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A718D0A61B30D23000E979B2 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		A718D0771B30CE7200E979B2 = {
 			isa = PBXGroup;
 			children = (
+				A718D0A51B30D23000E979B2 /* CoreLocation.framework */,
 				A718D0821B30CE7200E979B2 /* Favorite Places */,
 				A718D0981B30CE7300E979B2 /* Favorite PlacesTests */,
 				A718D0811B30CE7200E979B2 /* Products */,
@@ -80,6 +86,7 @@
 				A718D0851B30CE7200E979B2 /* AppDelegate.swift */,
 				A718D0871B30CE7200E979B2 /* ViewController.swift */,
 				A718D0891B30CE7200E979B2 /* Main.storyboard */,
+				A718D0A71B30E22600E979B2 /* TableViewController.swift */,
 				A718D08C1B30CE7200E979B2 /* Images.xcassets */,
 				A718D08E1B30CE7200E979B2 /* LaunchScreen.xib */,
 				A718D0831B30CE7200E979B2 /* Supporting Files */,
@@ -156,6 +163,7 @@
 		A718D0781B30CE7200E979B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Daniel Schartner";
 				TargetAttributes = {
@@ -213,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A718D0881B30CE7200E979B2 /* ViewController.swift in Sources */,
+				A718D0A81B30E22600E979B2 /* TableViewController.swift in Sources */,
 				A718D0861B30CE7200E979B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +416,7 @@
 				A718D0A11B30CE7300E979B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A718D0A21B30CE7300E979B2 /* Build configuration list for PBXNativeTarget "Favorite PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +425,7 @@
 				A718D0A41B30CE7300E979B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
